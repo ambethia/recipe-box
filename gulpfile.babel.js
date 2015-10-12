@@ -5,6 +5,7 @@ import source from 'vinyl-source-stream';
 import browserSync from 'browser-sync';
 import sass from 'gulp-sass';
 import ghPages from 'gh-pages';
+import path from 'path';
 
 const sync = browserSync.create();
 
